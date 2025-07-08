@@ -1,0 +1,11 @@
+/* Column-based Masonry */
+.masonry {
+  column-gap: 16px;
+  column-width: 320px; /* browser decides how many columns fit */
+}
+
+/* Each tile */
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+} 

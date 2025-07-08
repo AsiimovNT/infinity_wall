@@ -1,0 +1,12 @@
+.image-tile {
+  display: block;
+  width: 100%;
+  height: auto; /* keep natural height */
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-tile:hover {
+  transform: scale(1.02);
+} 
